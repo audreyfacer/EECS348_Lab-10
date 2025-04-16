@@ -23,7 +23,7 @@ bool validDouble(const string& str){
     bool digitsAfterDot = false;
     if(str[i]=='.'){
         i++;
-        bool hasDot = true;
+        hasDot = true;
         while(i <len){
             if (!(str[i] >= '0' && str[i] <= '9')) {
                 return false;
